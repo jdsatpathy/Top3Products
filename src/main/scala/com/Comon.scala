@@ -4,7 +4,7 @@ import com.typesafe.config.Config
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-class Comon {
+trait Comon {
   def sparkConfCreator(envProp : Config) : SparkConf = {
     new SparkConf()
       .setAppName(envProp.getString("app.name"))

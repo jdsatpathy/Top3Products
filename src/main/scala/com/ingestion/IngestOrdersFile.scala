@@ -1,33 +1,19 @@
 package com.ingestion
 
-import com.typesafe.config.{Config, ConfigFactory}
-import org.apache.spark.SparkConf
-import org.apache.spark.sql.SparkSession
 
-object IngestOrdersFile {
-  def main(args: Array[String]): Unit = {
-    val envProp = ConfigFactory.load().getConfig(args(0))
-    val sparkConf = sparkConfCreator(envProp)
-    val spark = sparkSession(envProp, sparkConf)
-    if (validateOrdersFile()) {
-      ingestOrdersFile()
-    }
+import com.cleansing.CleanseFiles
+import com.typesafe.config.{ConfigFactory}
+import org.apache.spark.sql.{DataFrame, SparkSession}
+import com.typesafe.scalalogging.{LazyLogging, Logger}
+import com.validation.{EnvPropertiesValidator, ValidateFiles, ValidateOrdersFile}
 
-  }
+class IngestOrdersFile extends LazyLogging with CleanseFiles with ValidateFiles with EnvPropertiesValidator{
 
-  def sparkConfCreator(envProp : Config) : SparkConf = {
-    new SparkConf()
-      .setAppName(envProp.getString("app.name"))
-      .setMaster(envProp.getString("app.master"))
-  }
 
-  def sparkSession(envProp: Config, sparkConf: SparkConf) : SparkSession = {
-    SparkSession
-      .builder()
-      .config(sparkConf)
-      .getOrCreate()
-  }
 
-  def validateOrdersFile() :
+
+
+
+
 
 }

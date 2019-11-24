@@ -1,6 +1,6 @@
 package com.validation
 
-class ValidateOrdersFile {
+trait ValidateOrdersFile {
   /* VATUCC Validation*/
 
   //V : Validity check of the data. e.g. card number contains only numbers,
@@ -15,8 +15,7 @@ class ValidateOrdersFile {
 
   //C : Completeness check e.g.
 
-  def validateOrdersFile() : Boolean = {
-    true
-  }
+
+
 
 }
