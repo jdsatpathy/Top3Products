@@ -15,10 +15,10 @@ object IngestFiles extends LazyLogging with CleanseFiles with ValidateFiles with
     val sparkConf = sparkConfCreator(envProp)
     val spark = sparkSessionWithHive(envProp, sparkConf)
     val fileName = envProp.getString("file.name")
-    val filePath = envProp.getString(envProp.getString("input.path") + "orders")
+    val filePath = envProp.getString(envProp.getString("input.path"))
     try {
       val cleansedFile = cleanseFile(spark, envProp, readFileToDataFrame(spark,filePath,envProp))
-      if (insertToStagingTable(spark, cleansedFile)) {
+      if (insertToStagingTable(spark, cleansedFile, envProp)) {
         logger.info(s"$fileName file loaded successfully to staging table")
       }
       else {
@@ -60,10 +60,10 @@ object IngestFiles extends LazyLogging with CleanseFiles with ValidateFiles with
     case _ => sparkSessionDev(envProp,sparkConf)
   }
 
-  def insertToStagingTable(spark: SparkSession, df : DataFrame) : Boolean = {
+  def insertToStagingTable(spark: SparkSession, df : DataFrame, envProp : Config) : Boolean = {
     val preLoadCount = df.count()
-    df.write.mode("overwrite").insertInto("ordersStaging")
-    val postLoadCount = spark.read.table("ordersStaging").count()
+    df.write.mode("overwrite").insertInto(envProp.getString("table.name"))
+    val postLoadCount = spark.read.table(envProp.getString("table.name")).count()
     if (preLoadCount == postLoadCount) {
       logger.info(s"Staging table loaded with $postLoadCount records")
       true

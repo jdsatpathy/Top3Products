@@ -2,73 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d5b22dc-b4d6-48bc-9bb3-5d9ba2b7d5ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazon_deequ_deequ_1_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_11_3_9_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_8_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/cleansing/CleanseFiles.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/validation/EnvPropertiesValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/validation/ValidateFiles.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Top3Products.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Top3Products.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/testcase/TestIngestion.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Comon.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Comon.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/cleansing/CleanseFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/cleansing/CleanseFiles.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/ingestion/IngestFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ingestion/IngestFiles.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ingestion/IngestOrdersFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ingestion/IngestOrdersFile.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products$sources_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products$sources_2.11/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products$sources_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products$sources_2.11/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products_2.11/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/top3products_2.11/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products$sources_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-top3products_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,11 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/cleansing/CleanseFiles.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="563">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#23#56#0" expanded="true" />
               </folding>
@@ -102,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -120,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ingestion/IngestFiles.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="979">
-              <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+            <state relative-caret-position="221">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
                 <element signature="e#23#56#0" expanded="true" />
               </folding>
@@ -132,8 +142,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/testcase/TestIngestion.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -160,13 +179,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/top3products/Top3ProductsCalculate.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Comon.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/validation/ValidateFiles.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/validation/EnvPropertiesValidator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ingestion/IngestOrdersFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ingestion/IngestFiles.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/cleansing/CleanseFiles.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/scala/testcase/TestIngestion.scala" />
       </list>
     </option>
   </component>
@@ -261,6 +281,19 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Top3Products" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Top3Products" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Top3Products" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Top3Products" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +301,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574618598737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574779698575" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -362,6 +395,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3149091686000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3900001440" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3500172521" />
       </map>
@@ -401,8 +435,9 @@
       <window_info anchor="bottom" id="Build" weight="0.32961586" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32961586" />
       <window_info anchor="bottom" id="Version Control" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2986369" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -474,43 +509,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ingestion/IngestOrdersFile.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#24#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/validation/EnvPropertiesValidator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ingestion/IngestFiles.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
-          <folding>
-            <element signature="e#23#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,13 +526,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/validation/EnvPropertiesValidator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/validation/ValidateOrdersFile.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/cleansing/CleanseFiles.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="563">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#23#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ingestion/IngestFiles.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#23#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/testcase/TestIngestion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>

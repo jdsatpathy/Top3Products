@@ -1,0 +1,7 @@
+package testcase
+
+class TestIngestion {
+
+
+
+}

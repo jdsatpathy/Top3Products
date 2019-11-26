@@ -15,7 +15,4 @@ trait ValidateOrdersFile {
 
   //C : Completeness check e.g.
 
-
-
-
 }
