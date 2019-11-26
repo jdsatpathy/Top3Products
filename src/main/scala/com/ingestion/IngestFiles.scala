@@ -15,7 +15,7 @@ object IngestFiles extends LazyLogging with CleanseFiles with ValidateFiles with
     val sparkConf = sparkConfCreator(envProp)
     val spark = sparkSessionWithHive(envProp, sparkConf)
     val fileName = envProp.getString("file.name")
-    val filePath = envProp.getString(envProp.getString("input.path"))
+    val filePath = envProp.getString("input.path")
     try {
       val cleansedFile = cleanseFile(spark, envProp, readFileToDataFrame(spark,filePath,envProp))
       if (insertToStagingTable(spark, cleansedFile, envProp)) {
