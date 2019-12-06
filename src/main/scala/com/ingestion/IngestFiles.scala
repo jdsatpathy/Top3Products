@@ -101,6 +101,7 @@ object IngestFiles extends LazyLogging with CleanseFiles with ValidateFiles with
     spark.read.
       option("mode", envProp.getString("read.mode")).
       option("header", envProp.getBoolean("header.exists")).
+      option("quotes", envProp.getString("quote.type")).
       schema(schema).
       format(envProp.getString("file.format")).
       load(filePath)
