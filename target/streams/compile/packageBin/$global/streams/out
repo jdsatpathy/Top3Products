@@ -16,6 +16,8 @@
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/cleansing/CleanseFiles$$anonfun$isAllDigits$1$1.class[0m
 [0m[[0mdebug[0m] [0m	com/validation/ValidateFiles.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/validation/ValidateFiles.class[0m
+[0m[[0mdebug[0m] [0m	com/ingestion/IngestFiles$$anonfun$saveAsJson$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/ingestion/IngestFiles$$anonfun$saveAsJson$1.class[0m
 [0m[[0mdebug[0m] [0m	com/validation[0m
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/validation[0m
 [0m[[0mdebug[0m] [0m	com/cleansing/CleanseFiles$$anonfun$numberOnly$1$1.class[0m
@@ -48,10 +50,10 @@
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/ingestion/IngestProductsFile.class[0m
 [0m[[0mdebug[0m] [0m	com/ingestion[0m
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/ingestion[0m
+[0m[[0mdebug[0m] [0m	com/ingestion/IngestFiles$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/ingestion/IngestFiles$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	com/ingestion/IngestFiles$.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/ingestion/IngestFiles$.class[0m
-[0m[[0mdebug[0m] [0m	com/ingestion/IngestFiles$$anonfun$readFileToDataFrame$1.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/ingestion/IngestFiles$$anonfun$readFileToDataFrame$1.class[0m
 [0m[[0mdebug[0m] [0m	com/cleansing/CleanseFiles$class.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/jdsatpathy/Documents/MyIntelliJProjects/Top3Products/target/scala-2.11/classes/com/cleansing/CleanseFiles$class.class[0m
 [0m[[0mdebug[0m] [0m	com/cleansing/CleanseFiles$$anonfun$3.class[0m

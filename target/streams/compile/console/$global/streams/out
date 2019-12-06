@@ -4,3 +4,114 @@
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.11.12[0m
 [0m[[0minfo[0m] [0mStarting scala interpreter...[0m
 [0m[[0minfo[0m] [0m[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-72[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-72[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dag-scheduler-event-loop[0m
+[0m[[0mdebug[0m] [0m	Interrupted dag-scheduler-event-loop[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-shared[0m
+[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-shared[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-70[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-70[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-71[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-71[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-73[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-73[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread netty-rpc-env-timeout[0m
+[0m[[0mdebug[0m] [0m	Interrupted netty-rpc-env-timeout[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-6[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-6[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Timer-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted Timer-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread task-result-getter-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted task-result-getter-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread task-result-getter-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted task-result-getter-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread task-result-getter-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted task-result-getter-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread driver-heartbeater[0m
+[0m[[0mdebug[0m] [0m	Interrupted driver-heartbeater[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-68[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-68[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[process reaper,10,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread element-tracking-store-worker[0m
+[0m[[0mdebug[0m] [0m	Interrupted element-tracking-store-worker[0m
+[0m[[0mdebug[0m] [0mInterrupting thread RemoteBlock-temp-file-clean-thread[0m
+[0m[[0mdebug[0m] [0m	Interrupted RemoteBlock-temp-file-clean-thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Spark Context Cleaner[0m
+[0m[[0mdebug[0m] [0m	Interrupted Spark Context Cleaner[0m
+[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-streams[0m
+[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-streams[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-69-acceptor-0@4b0a85d2-ServerConnector@45cd62c3{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-69-acceptor-0@4b0a85d2-ServerConnector@45cd62c3{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}[0m
+[0m[[0mdebug[0m] [0mInterrupting thread heartbeat-receiver-event-loop-thread[0m
+[0m[[0mdebug[0m] [0m	Interrupted heartbeat-receiver-event-loop-thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread context-cleaner-periodic-gc[0m
+[0m[[0mdebug[0m] [0m	Interrupted context-cleaner-periodic-gc[0m
+[0m[[0mdebug[0m] [0mInterrupting thread task-result-getter-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted task-result-getter-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-74[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-74[0m
+[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-appStatus[0m
+[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-appStatus[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-67[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-67[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner[0m
+[0m[[0mdebug[0m] [0m	Interrupted org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner[0m
+[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-executorManagement[0m
+[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-executorManagement[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
+[0m[[31merror[0m] [0m(spark-listener-group-streams) java.lang.InterruptedException[0m
+[0m[[31merror[0m] [0m(spark-listener-group-shared) java.lang.InterruptedException[0m
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1323)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1323)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
