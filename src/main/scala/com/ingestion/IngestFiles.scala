@@ -110,7 +110,7 @@ object IngestFiles extends LazyLogging with CleanseFiles with ValidateFiles with
   def saveAsJson(spark: SparkSession, envProp : Config, df : DataFrame, filename : String, timestamp : String) : Unit = {
     logger.error(s"Starting to read ${filename}")
     val countReceived = df.count()
-    df.foreach(x => logger.error(x.toString()))
+    //df.foreach(x => logger.error(x.toString()))
     df.write.json(envProp.getString("output.path") + timestamp)
     //val countWritten = spark.read.json(envProp.getString("output.path") + timestamp).count()
     val fs = FileSystem.get(spark.sparkContext.hadoopConfiguration)
